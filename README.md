@@ -47,7 +47,6 @@ pip install numpy matplotlib
 * `autocorrl(k, e)`: Função que calcula a autocorrelação de um array `e` até um número de lags (defasagens) `k`.
 * **Bloco de Leitura e Parsing:** Usa `re.findall` para capturar os dados do GPX sem a necessidade de um parser XML pesado.
 * **Bloco de Interpolação:** Usa `np.interp` para padronizar os dados de tempo e distância, permitindo um cálculo de ritmo uniforme.
-* **Configuração de Plotagem (`plt.rcParams`)**: Define parâmetros de estética dos gráficos, voltados para o padrão de publicações acadêmicas.
 
 ## Notas Adicionais
 
